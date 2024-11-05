@@ -25,3 +25,8 @@ window.onload = function () {
   const display = document.getElementById('timer');
   startCountdown(countdownDuration, display);
 };
+
+function toggleMenu() {
+  const navLinks = document.getElementById('navLinks');
+  navLinks.classList.toggle('active');
+}
